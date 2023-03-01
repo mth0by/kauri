@@ -94,6 +94,24 @@
 		});
 		
 	 }
+	
+ 
+	// PROGRESS BARS // 
+	function progress_bars() {
+		
+		$(".progress .progress-bar:in-viewport").each(function() {
+			
+			if (!$(this).hasClass("animated")) {
+				$(this).addClass("animated");
+				$(this).animate({
+					width: $(this).attr("data-width") + "%"
+				}, 2000);
+			}
+			
+		});
+		
+	}
+
 
 	// CHARTS //
 	function pie_chart() {

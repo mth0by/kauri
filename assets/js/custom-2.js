@@ -795,7 +795,7 @@
 			pagerType: 'full',
 			controls: true,
 			auto: false,
-			pause: 4000,
+			pause: 20000,
 			autoHover: true,
 			useCSS: false
 		});

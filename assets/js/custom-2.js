@@ -777,11 +777,11 @@
 			speed: 800,
 			infiniteLoop: true,
 			hideControlOnEnd: false,
-			pager: true,
+			pager: false,
 			pagerType: 'full',
-			controls: false,
+			controls: true,
 			auto: true,
-			pause: 4000,
+			pause: 20000,
 			autoHover: true,
 			useCSS: false
 		});
@@ -795,7 +795,7 @@
 			pagerType: 'full',
 			controls: true,
 			auto: false,
-			pause: 4000,
+			pause: 20000,
 			autoHover: true,
 			useCSS: false
 		});
